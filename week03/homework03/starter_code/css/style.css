@@ -15,3 +15,184 @@
      height: 0;
 }
 
+body {
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	background-color: #f0efef;
+	width: 100%;
+}
+
+.container{ 
+	width: 980px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+
+.relaxrHeader {
+	background: #033048
+
+}
+.relaxrLogo {
+	font-weight:800;
+	font-size: 40px;
+	color: white;
+	float:left;
+	padding:30px 0;
+	padding-right: 300px;
+
+}
+
+.mainNav {
+	font-weight: 600;
+}
+
+.mainNav ul {
+
+}
+
+.mainNav ul li {
+	
+	display:inline;
+	float:left;
+	padding-top: 40px;
+
+}
+.mainNav ul li a {
+	text-decoration:none;
+	padding: 21px;
+	color:#f9e42e;
+	font-weight: 300
+}
+.columnWrapper{
+	margin-top: 80px;
+}
+.main {
+	width: 700px;
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+.title a{
+	font-weight: 600;
+	font-size: 40px;
+	text-decoration:none;
+	line-height: 1.3;
+	color: #033048
+}
+
+img{
+	margin-bottom: 30px;
+
+}
+
+.post {
+	margin-bottom: 40px;
+	border-bottom: black solid 1px;
+	padding-bottom: 40px;
+
+}
+.post p{
+	font-size: 24px;
+	font-weight: 300;
+	color: #606161;
+	line-height: 1.3;
+	
+
+}
+
+.firstLetter { 
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 65px;
+	padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    float:left;
+    margin: -.1em .1em 0 -.1em;
+}
+
+.more a{
+	text-decoration: none;
+	float: right;
+	margin-top: 30px;
+	font-weight: 600;
+	color: #121212;
+}
+
+.sidebar{
+	width: 240px;
+	float: left;
+}
+.sidebar h1 {
+	font-size: 32px;
+	font-weight: 800;
+	color:#033048;
+	margin-bottom: 15px;
+	line-height: 1.3;
+}
+
+.sidebar ul {
+	line-height: 1.5;
+	margin-bottom: 40px;
+
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color:#033048;
+}
+
+.sidebar p{
+	color: #606161;
+	font-size: 22px;
+	line-height: 1.1;
+}
+
+.learn {
+	margin-bottom: 40px;
+}
+
+.learn a{
+	text-decoration: none;
+	color:#033048;
+	font-weight: 600;
+}
+
+
+.signUp{
+	display: block;
+	background: #f9e42e
+}
+
+.signUp .btn{
+    background: #033048;
+    color: white;
+    font-weight: 800;
+}
+
+.btn {
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 12px 50px;
+}
+.social{
+	text-align: center;
+	background: black;
+	
+}
+.social a{
+	color:white;
+	font-size: 50px;
+	padding:40px;
+	
+}
+.copyright {
+	color:white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 50px;
+
