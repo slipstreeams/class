@@ -1,0 +1,169 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #aaa;
+    width: 100%;
+    margin: 0;
+}
+
+.outerWrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+
+.navLogoBackground {
+	background: black;
+	border-bottom: solid; 
+    padding: 20px;
+    border-bottom: 2px solid rgb(254,254,86);
+}
+
+.logo {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    color:rgb(254,254,86);
+    }
+
+.mainNav {
+	margin: 0;
+    padding-bottom: 50px;
+}
+
+.mainNav ul{
+	float:right;
+    padding-right: 60px;
+    margin: 22px 0;
+}
+
+.mainNav li {
+	display: inline;
+	padding: 10px;
+}
+
+.mainNav a {
+	text-decoration: none;
+	color: white;
+    font-size: 22px;
+}
+.mainNav strong {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+
+}
+ .tagline {
+ 	background-color:rgb(209, 209,209);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 22px;
+ }
+
+ .tagline ins{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(254,254,86);
+ }
+
+ .background {
+    background: url("../images/coworking.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+}
+
+.hero {
+    width: 333px;
+    float: right;
+    background-color: rgba(255,255,255,0.8);
+    padding: 30px;
+    box-shadow: 0 0 3px #333;
+}
+
+.content{
+width: 33%;
+padding: 0 20px;
+display: inline;
+float: left;
+border-right: 1px solid rgb(211, 211, 211);
+}
+
+.content:last-child {
+    border-right: none;
+    float: right;
+}
+
+.content h1 {
+    color: blue;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    color: blue;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+.content p {
+    margin: 5px 0 16px 0;
+}
+
+.btnLanding {
+    display: block;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 15px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+    transition: box-shadow .2s ease-in-out;
+
+}
+
+.btnLanding:hover {
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.1);
+
+}
+
+.btnProfile {
+    background-color: rgb(255, 255, 0);
+
+}
+.bottomWrapper {
+    padding: 20px;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    font-family: "Merriweather", serif;
+    padding: 20px;
+    margin-top: 0;
+}
+ 
