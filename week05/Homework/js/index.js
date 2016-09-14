@@ -26,6 +26,14 @@ jQuery(document).ready(function(){
 
 	});
 
+	/*jQuery(".readmore").on("click",function() {
+		event.preventDefault();
+		jQuery("#show-this-on-click").slideDown();
+		jQuery(".readmore").hide();
+		jQuery(".readless").show();
+
+	});*/
+
 	jQuery(".readless").on("click",function(){
 		event.preventDefault();
 		jQuery("#show-this-on-click").slideUp(400, function(){
