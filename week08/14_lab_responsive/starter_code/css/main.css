@@ -82,6 +82,7 @@ a {
     font-family: 'Oswald';
 }
 
+
 .hamburger {
     max-width: 36px;
     display: none;
@@ -214,6 +215,8 @@ a {
         display: block;
         float: right;
         overflow: hidden;
+        background-color:rgb(88,108,103); 
+        border:2px;
     }
     .main-nav li {
         margin-right: none;

@@ -150,7 +150,9 @@ a {
   color: #043049;
   font-weight: 600;
 }
-
+.coffee-deets{
+  display:block;
+}
 .button {
   border-radius: 5px;
   font-weight: 800;
